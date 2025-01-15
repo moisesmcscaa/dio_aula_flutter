@@ -7,17 +7,16 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter na DIO',
+      title: 'Curso de Flutter na DIO',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff38a7ce)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter na DIO'),
+      home: const MyHomePage(title: 'Curso de Flutter na DIO'),
     );
   }
 }
@@ -64,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.plus_one_sharp),
       ),
     );
   }
